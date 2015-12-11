@@ -67,6 +67,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     org.dirtyunicorns.utils
 
+# Theme engine
+include vendor/citrus/config/themes_common.mk
+
 # Required packages
 PRODUCT_PACKAGES += \
     Development \
