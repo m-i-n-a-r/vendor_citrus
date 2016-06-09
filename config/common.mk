@@ -60,6 +60,13 @@ PRODUCT_COPY_FILES += \
     vendor/citrus/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/citrus/prebuilt/common/bin/sysinit:system/bin/sysinit
 
+# DU Utils Library
+PRODUCT_PACKAGES += \
+    org.dirtyunicorns.utils
+
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
+
 # Required packages
 PRODUCT_PACKAGES += \
     Development \
@@ -77,7 +84,15 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
+    Launcher3 \+# DU Utils Library
+ +PRODUCT_PACKAGES += \
+ +    org.dirtyunicorns.utils
+ +
+ +PRODUCT_BOOT_JARS += \
+ +    org.dirtyunicorns.utils
+ +
+ +
+
     LatinIME \
     BluetoothExt
 
