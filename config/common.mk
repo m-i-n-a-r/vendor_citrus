@@ -86,6 +86,10 @@ PRODUCT_PACKAGES += \
    Eleven \
    Camera3 
 
+PRODUCT_COPY_FILES += \
+    vendor/citrus/prebuilt/app/mixplorer.apk:sysetm/priv-app/MiXplorer/MiXplorer.apk \
+    vendor/citrus/prebuilt/app/GoogleKeyboard.apk:sysetm/priv-app/GoogleKeyboard/GoogleKeyboard.apk
+ 
 # Extra tools
 PRODUCT_PACKAGES += \
     openvpn \
