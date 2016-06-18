@@ -77,9 +77,14 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
-    LatinIME \
     BluetoothExt
+
+# CitrusIncludes
+PRODUCT_PACKAGES += \
+   Trebuchet \
+   Gello \
+   Eleven \
+   Camera3 
 
 # Extra tools
 PRODUCT_PACKAGES += \
