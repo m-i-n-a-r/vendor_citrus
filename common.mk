@@ -177,3 +177,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.citrus.version=$(CITRUS_VERSION) \
     ro.modversion=$(CITRUS_MOD_VERSION) \
     ro.citrus.buildtype=$(CITRUS_BUILD_TYPE)
+	
+# DU Utils Library
+PRODUCT_PACKAGES += \
+    org.dirtyunicorns.utils
+
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
